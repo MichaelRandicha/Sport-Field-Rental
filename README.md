@@ -14,3 +14,7 @@ and
 ```
 php artisan migrate:fresh --seed
 ```
+Also since the application use the storage in the application, you'll need to run
+```
+php artisan storage:link
+```
